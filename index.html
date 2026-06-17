@@ -824,5 +824,10 @@ document.getElementById('topbarMonth').textContent = MONTHS[state.activeMonth.m]
 renderHome();
 renderCatsGrid();
 </script>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/Hesabdari-Man/sw.js');
+}
+</script>
 </body>
 </html>
