@@ -1,0 +1,26 @@
+{
+  "name": "حساب‌داری - مدیریت مالی",
+  "short_name": "حساب‌داری",
+  "description": "اپ مدیریت مالی شخصی برای ثبت درآمد و هزینه",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0F0B1E",
+  "theme_color": "#6C3CE1",
+  "orientation": "portrait",
+  "lang": "fa",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192x192/6C3CE1/ffffff?text=H",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://via.placeholder.com/512x512/6C3CE1/ffffff?text=H",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
