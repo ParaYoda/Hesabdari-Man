@@ -825,7 +825,11 @@ renderHome();
 renderCatsGrid();
 </script>
 <script>
-
+</script>
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('/Hesabdari-Man/sw.js');
+}
 </script>
 </body>
 </html>
